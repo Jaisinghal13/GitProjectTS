@@ -22,7 +22,7 @@ function App() {
           <Route path="/blogList" element={<BlogList />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/ContactUs" element={<ContactUs />} />
-          <Route path="/aboutus" element={<AboutUs />} />
+          {/* <Route path="/aboutus" element={<AboutUs />} /> */}
         </Routes>
       </BrowserRouter>
     </AuthProvider>
